@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set container height to full viewport height */
+}
+
+table {
+  width: 80%; /* Set table width */
+  border-collapse: collapse;
+  margin-top: 20px; /* Add some space between the table and the top */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.links{
+  text-decoration: none;
+  color: black;
+}
+.buttons{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow:  5px 5px black;
+  background-color: white;
+  cursor: pointer;
+}
+.buttons:hover{
+
+  font-weight: bold;
+  
+}
